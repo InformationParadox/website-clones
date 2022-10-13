@@ -1,3 +1,4 @@
+
 body{
     margin: 0;
     padding: 0;
@@ -9,7 +10,7 @@ body{
 header{
     display: flex;
     align-items: center;
-    width: 1550px;
+    width: 100%;
     /* justify-content: space-between; */
 }
 
@@ -35,6 +36,7 @@ li{
 }
 
 .headerHome2{
+    width: 98%;
     background-color: #282a35;
     height: 42px;
     color: white;
@@ -61,7 +63,7 @@ li:hover{
         border:1px solid white; 
         font-weight: 550; 
         font-size: 15px;
-        margin-left: 350px;
+        margin-left: 200px;
 }
 
 #paid{
@@ -117,7 +119,7 @@ li:hover{
     }
 
 .middle{
-    width: 950px;
+    width: 80%;
     margin-left:210px;
 }
 
@@ -126,7 +128,7 @@ li:hover{
     align-items: center;
     justify-content: space-between;
     margin: 15px;
-
+    width: 65%;
 }
 
 .next{
@@ -140,6 +142,7 @@ li:hover{
 }
 
 .discussion{
+    width: 70%;
     background-color: #d9eee1;
     padding: 30px;
     font-size: 15px;
@@ -150,12 +153,16 @@ li:hover{
 }
 
 .examples{
-    margin-left: 30px;
-    font-weight: 100;
+    font-weight: 98px;
 }
 
 
 .right{
     float: right;
-    margin-top: -590px;
+    margin-top: -565px;
+}
+.right img{
+    object-fit: cover;
+    height: 520px;
+    width: 200px;
 }
